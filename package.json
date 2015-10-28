@@ -1,10 +1,29 @@
 {
   "name": "itpetro",
-  "version": "0.0.0",
-  "dependencies": {},
+  "version": "0.0.1",
+  "readme": "README.md",
+  "description": "Responsive web application",
+  "author": "Marcin Jelen <marjel73@gmail.com>",
+  "copyright": "(c) 2015 mariel",
+  "dependencies": {
+    "express": "4.2.x"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "gulp test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marjel/itpetro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marjel/marjel/itpetro.git/issues"
+  },
+  "keywords": [
+    "itpetro",
+    "rwd"
+  ],
+  "homepage": "http://sh189254.website.pl/itpetro/dist",
   "devDependencies": {
     "estraverse": "~4.1.0",
     "gulp": "~3.9.0",
@@ -51,7 +70,11 @@
     "uglify-save-license": "~0.4.1",
     "wrench": "~1.5.8"
   },
-  "engines": {
-    "node": ">=0.10.0"
-  }
+  "engine": "node >= 0.4.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "LICENCE"
+    }
+  ],
 }
