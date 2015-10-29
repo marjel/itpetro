@@ -36,7 +36,7 @@ function browserSyncInit(baseDir, d, b) {
     logLevel: debug ? 'debug' : 'info',
     logConnections: debug,
     reloadDelay: 5000,
-    open: debug
+    open: debug ? 'local' : 'external'
   });
 }
 
